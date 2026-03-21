@@ -11,3 +11,7 @@ def testePáginaInicial():
 @app.route('/usuario/<nome>')
 def PagUsuario(nome):
   return f"Olá, {nome} estelionatário(a)"
+
+@app.route('/batata')
+def batataPage(b):
+  return f"batata"
